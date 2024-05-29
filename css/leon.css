@@ -116,29 +116,26 @@
     /* end header */
     /* Start hello */
     .hello{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .hello .phimg{
-        z-index: -1;
-        width: 100%;
-    }
-    .hello .phimg img {
-        background-position: center;
-        background-size: auto;
-        width: 100%;
+       background-image: url(/image/assets/photo\ T1.webp);
+        background-size: cover;
+        height: calc(100vh - 65px);
     }
     .hello .taitl{
-        margin-top: 35px;
         position: absolute;
         text-align: center;
+        width: 320px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-    .hello .taitl h1{
+    .hello .taitl h2{
+        font-weight: bold;
+        font-size: 40px;
         color: var(--mincolor);
     }
-    .hello .taitl p{
-        line-height: 6px;
-        font-size: 12px;
+    .hello .taitl h2 + p{
+        font-size: 20px;
+    line-height: 1.6;
     }
     /* end hello */
     /* Start parti-3 */
