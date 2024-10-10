@@ -1,9 +1,9 @@
     /* Start Global Rules */
     body {
-        font-family: sans-serif;
+            font-family: 'Work Sans', sans-serif;
     }
     :root{
-        --mincolor: #00dac9;
+        --mincolor: #10CAB7;
         --max-color:#777;
     }
     .container{
@@ -113,34 +113,31 @@
     .header .link:hover ul{
         display: block;
     }
-    /* end header */
+    /* and header */
     /* Start hello */
     .hello{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .hello .phimg{
-        z-index: -1;
-        width: 100%;
-    }
-    .hello .phimg img {
-        background-position: center;
-        background-size: auto;
-        width: 100%;
+        background-image: url(https://khaled0303.github.io/Html-And-CSS-Template-One/images/wp7558832.webp);
+        background-size: cover;
+        height: calc(100vh - 65px);
     }
     .hello .taitl{
-        margin-top: 35px;
         position: absolute;
         text-align: center;
+        width: 320px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-    .hello .taitl h1{
+    .hello .taitl h2{
+        font-weight: bold;
+        font-size: 40px;
         color: var(--mincolor);
     }
-    .hello .taitl p{
-        line-height: 6px;
-        font-size: 12px;
+    .hello .taitl h2 + p{
+        font-size: 20px;
+        line-height: 1.6;
     }
-    /* end hello */
+    /* and hello */
     /* Start parti-3 */
    .parti-3{
         width: 100%;
@@ -154,7 +151,6 @@
         height: 210px;
         padding: 29px;
         margin: 20px;
-       
     }
     .parti-3 .par p{
         line-height: 30px;
@@ -188,7 +184,7 @@
             margin-bottom: 0px;
         }
     }
-    /* end parti-3 */
+    /* and parti-3 */
     /* Start services */
     .services .col-g{
         display: grid;
@@ -238,7 +234,7 @@
             display: none;
         }
     }
-    /* end services */
+    /* and services */
     /* Start portfolio */
     .portfolio{
         background-color: #FBFAFB;
@@ -290,7 +286,7 @@
      color: var(--max-color);
      line-height: 1.6;
     }
-    /* end portfolio */
+    /* and portfolio */
     /* Start about */
     .about .port h1{
         opacity: 0.05;
@@ -365,7 +361,7 @@
             display: none;
         } 
        }
-    /* end about */
+    /* and about */
     /* Start contact */
     .contact{
     background-color: #FBFAFB;
@@ -399,7 +395,7 @@
        .contact .gmail i{
         margin-left: 20px;
         font-size: 17px;
-     }
+       }
        .contact .border{
         position: absolute;
         bottom: 0px;
@@ -430,4 +426,4 @@
         margin-left: 0;
        }
     }
-     /* end contact */
+     /* and contact */
