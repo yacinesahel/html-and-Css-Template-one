@@ -116,7 +116,7 @@
     /* and header */
     /* Start hello */
     .hello{
-        background-image: url(https://khaled0303.github.io/Html-And-CSS-Template-One/images/wp7558832.webp);
+        background-image: url(/image/landing.jpg);
         background-size: cover;
         height: calc(100vh - 65px);
     }
@@ -151,6 +151,7 @@
         height: 210px;
         padding: 29px;
         margin: 20px;
+        transition: 0.3s;
     }
     .parti-3 .par p{
         line-height: 30px;
